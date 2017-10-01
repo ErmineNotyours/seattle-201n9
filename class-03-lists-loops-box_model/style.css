@@ -1,0 +1,11 @@
+*{
+  font-family: sans-serif;
+  background-color: yellow;
+  color: black;
+}
+
+img{
+  -moz-box-shadow: 5px 5px #777777;
+  -webkit-box-shadow: 5px 5px #777777;
+  box-shadow: 5px 5px #777777;
+}
