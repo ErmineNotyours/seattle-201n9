@@ -112,7 +112,7 @@ for (var i = 0; i < 6; i++){
   }// next j
   console.log('Before if found test, found, j ' + found + ' ' + j);
   if (found){
-    alert('Correct! ' + answer7 + ' Was one of Arthur\'s favorite subjects.  You have ' + (5 - i) + ' more chances.');
+    alert('Correct! ' + answer7 + ' Was one of Arthur\'s favorite subjects.  There are ' + (subjectTest.length) + ' more subjects.');
     i--; //Decrement i so it doesn't count against a wrong answer.
     console.log('found == true. i decremented. Answer7, i & j: ' + answer7 + ' ' + i + ' ' + j);
   }else{
@@ -122,7 +122,6 @@ for (var i = 0; i < 6; i++){
       alert('Sorry, that\'s not right. You have ' + (5 - i) + ' more chances.');
     }else{
       alert('Sorry, Arthur took ' + subjectString + 'while at Washington State University.');
-      // For some reason, even though I removed array items from subjectTest, items from subjects are removed too
     } //if i < 5
   } //If found
   if (subjectTest.length < 1){
